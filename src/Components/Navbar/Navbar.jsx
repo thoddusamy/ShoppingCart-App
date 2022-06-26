@@ -10,7 +10,7 @@ function Navbar({ length }) {
         <a className='navbar-brand text-white' href='#!'>
           <PhoneVibrateFill /> MobFi
         </a>
-        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+        <div className='navbar-collapse'>
           <NavbarLi />
           <CartBtn length={length} />
         </div>
