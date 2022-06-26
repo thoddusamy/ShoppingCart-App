@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-style {
+    font-family: 'Italianno', cursive;
+    font-size: 30px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-img-top {
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-color {
+    background-color: bisque;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width:300px) and (max-width:767px) {
+    .card-img-top {
+        width: auto;
+        height: auto;
+        max-width: 250px;
+        max-height: 250px;
+        margin: 0 auto;
+    }
 }
