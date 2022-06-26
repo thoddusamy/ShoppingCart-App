@@ -28,4 +28,14 @@
         max-height: 250px;
         margin: 0 auto;
     }
+
+    .navbar-li {
+        display: none !important;
+    }
+
+    .navbar-flexs {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }

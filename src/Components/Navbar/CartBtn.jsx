@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function CartBtn({ length }) {
   return (
-    <form className='d-flex'>
+    <form className='d-flex navbar-flexs'>
       <Link to='/cart' className='btn text-white' type='submit'>
         <CartFill className='me-1' />
         Cart
