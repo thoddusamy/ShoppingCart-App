@@ -45,7 +45,7 @@ function CartPage({ cartList, total, RemoveCartItem }) {
             )
           })}
         </div>
-        <h1 className='text-end py-2'>Total: ₹{total}</h1>
+        <h1 className='txt-cen pe-3 py-2'>Total: ₹{total}</h1>
       </div>
     </div>
   )

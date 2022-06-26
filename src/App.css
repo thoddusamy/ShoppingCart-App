@@ -16,6 +16,10 @@
     background-attachment: fixed;
 }
 
+.txt-cen {
+    text-align: right;
+}
+
 .bg-color {
     background-color: bisque;
 }
@@ -37,5 +41,9 @@
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
+    }
+
+    .txt-cen {
+        text-align: center !important;
     }
 }
